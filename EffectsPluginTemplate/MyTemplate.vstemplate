@@ -1,0 +1,28 @@
+<VSTemplate Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Project">
+  <TemplateData>
+    <Name>EffectsPluginTemplate</Name>
+    <Description>&lt;No description available&gt;</Description>
+    <ProjectType>CSharp</ProjectType>
+    <ProjectSubType>
+    </ProjectSubType>
+    <SortOrder>1000</SortOrder>
+    <CreateNewFolder>true</CreateNewFolder>
+    <DefaultName>EffectsPluginTemplate</DefaultName>
+    <ProvideDefaultName>true</ProvideDefaultName>
+    <LocationField>Enabled</LocationField>
+    <EnableLocationBrowseButton>true</EnableLocationBrowseButton>
+    <Icon>__TemplateIcon.ico</Icon>
+  </TemplateData>
+  <TemplateContent>
+    <Project TargetFileName="EffectsPluginTemplate.csproj" File="EffectsPluginTemplate.csproj" ReplaceParameters="true">
+      <ProjectItem ReplaceParameters="true" TargetFileName="EffectPlugin.cs">EffectPlugin.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="EffectPluginConfigDialog.cs">EffectPluginConfigDialog.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="EffectPluginConfigDialog.resx">EffectPluginConfigDialog.resx</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="EffectPluginIcon.png">EffectPluginIcon.png</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="EffectPluginToken.cs">EffectPluginToken.cs</ProjectItem>
+      <Folder Name="Properties" TargetFolderName="Properties">
+        <ProjectItem ReplaceParameters="true" TargetFileName="AssemblyInfo.cs">AssemblyInfo.cs</ProjectItem>
+      </Folder>
+    </Project>
+  </TemplateContent>
+</VSTemplate>
